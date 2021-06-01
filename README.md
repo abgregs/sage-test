@@ -1,3 +1,9 @@
+This a minimal reproduction of a Sage install with Tailwind that was giving the following error on build after attempting to load font files in @font-face rules.
+
+`Module build failed: ModuleBuildError: Module build failed: TypeError [ERR_INVALID_ARG_TYPE]: The "from" argument must be of type string. Received undefined`
+
+More on troubleshooting this issue and additional comments can be found here: [https://discourse.roots.io/t/tailwind-v2-and-sage-9/19598/23](https://discourse.roots.io/t/tailwind-v2-and-sage-9/19598/23)
+
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
